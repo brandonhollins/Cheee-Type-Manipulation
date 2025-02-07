@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Market Animation with Advanced Controls</title>
+    <link rel="stylesheet" href="experiment.css">
+</head>
+<body>
+    <div class="text-container">
+        <h1 id="text" data-text="Solo Market">Solo Market</h1>
+    </div>
+
+    <div class="controls">
+        <div class="control">
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" min="0.5" max="5" step="0.1" value="2">
+        </div>
+        <div class="control">
+            <label for="yeastMin">Yeast Min:</label>
+            <input type="range" id="yeastMin" min="0" max="1000" step="10" value="0">
+        </div>
+        <div class="control">
+            <label for="yeastMax">Yeast Max:</label>
+            <input type="range" id="yeastMax" min="0" max="1000" step="10" value="1000">
+        </div>
+        <div class="control">
+            <label for="gravityMin">Gravity Min:</label>
+            <input type="range" id="gravityMin" min="0" max="1000" step="10" value="0">
+        </div>
+        <div class="control">
+            <label for="gravityMax">Gravity Max:</label>
+            <input type="range" id="gravityMax" min="0" max="1000" step="10" value="1000">
+        </div>
+        <div class="control">
+            <label for="tempMin">Temp Min:</label>
+            <input type="range" id="tempMin" min="0" max="1000" step="10" value="0">
+        </div>
+        <div class="control">
+            <label for="tempMax">Temp Max:</label>
+            <input type="range" id="tempMax" min="0" max="1000" step="10" value="1000">
+        </div>
+        <div class="control">
+            <label for="translateY">Vertical Movement:</label>
+            <input type="range" id="translateY" min="0" max="50" step="1" value="20">
+        </div>
+        <div class="control">
+            <label for="rotate">Rotation:</label>
+            <input type="range" id="rotate" min="0" max="20" step="1" value="5">
+        </div>
+    </div>
+
+    <script src="experiment.js"></script>
+</body>
+</html>
